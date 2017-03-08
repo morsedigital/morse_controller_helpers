@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Morse Controller Helpers}
   spec.description   = %q{Morse Controller Helpers}
-  spec.homepage      = "git@github.com:morsedigital/morse_controller_helpers.git"
+  spec.homepage      = "https://github.com/morsedigital/morse_controller_helpers"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -33,4 +33,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.14"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "guard-rspec"
+  spec.add_development_dependency "guard-rubocop"
+  spec.add_dependency 'activesupport'
+  spec.add_dependency 'rails'
 end

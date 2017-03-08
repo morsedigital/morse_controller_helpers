@@ -1,0 +1,17 @@
+AllCops:
+  Exclude:
+    - 'Gemfile'
+    - 'Guardfile'
+    - 'Rakefile'
+    - '.git-hooks/**/*'
+    - 'bin/**/*'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'lib/**/*'
+    - 'log/**/*'
+    - 'spec/**/*'
+    - '*.gemspec'
+Lint/HandleExceptions:
+  Enabled: false
+Style/AccessorMethodName:
+  Enabled: false

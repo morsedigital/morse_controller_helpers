@@ -1,6 +1,8 @@
-require "morse_controller_helpers/version"
-require "morse_controller_helpers/crud_helpers"
-require "morse_controller_helpers/flash_helpers"
+require 'action_controller'
+require 'active_support/all'
+require 'morse_controller_helpers/version'
+require 'morse_controller_helpers/crud_helpers'
+require 'morse_controller_helpers/flash_helpers'
 
 module MorseControllerHelpers
   extend ActiveSupport::Concern

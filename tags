@@ -1,0 +1,48 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CrudHelpers	lib/morse_controller_helpers/crud_helpers.rb	/^  module CrudHelpers$/;"	m	class:MorseControllerHelpers
+FlashHelpers	lib/morse_controller_helpers/flash_helpers.rb	/^  module FlashHelpers$/;"	m	class:MorseControllerHelpers
+GenericController	spec/morse_controller_helpers_spec.rb	/^class GenericController < ActionController::Base$/;"	c
+MorseControllerHelpers	lib/morse_controller_helpers.rb	/^module MorseControllerHelpers$/;"	m
+MorseControllerHelpers	lib/morse_controller_helpers/crud_helpers.rb	/^module MorseControllerHelpers$/;"	m
+MorseControllerHelpers	lib/morse_controller_helpers/flash_helpers.rb	/^module MorseControllerHelpers$/;"	m
+MorseControllerHelpers	lib/morse_controller_helpers/version.rb	/^module MorseControllerHelpers$/;"	m
+Thing	spec/morse_controller_helpers_spec.rb	/^class Thing; end$/;"	c
+ThingStuff	spec/morse_controller_helpers_spec.rb	/^class ThingStuff; end$/;"	c
+assign_current_instance_from_params	lib/morse_controller_helpers.rb	/^  def assign_current_instance_from_params(pri)$/;"	f	class:MorseControllerHelpers
+create	lib/morse_controller_helpers/crud_helpers.rb	/^    def create$/;"	f	class:MorseControllerHelpers.CrudHelpers
+destroy	lib/morse_controller_helpers/crud_helpers.rb	/^    def destroy$/;"	f	class:MorseControllerHelpers.CrudHelpers
+dynamic_current_instance	lib/morse_controller_helpers.rb	/^  def dynamic_current_instance$/;"	f	class:MorseControllerHelpers
+edit	lib/morse_controller_helpers/crud_helpers.rb	/^    def edit; end$/;"	f	class:MorseControllerHelpers.CrudHelpers
+flash_404_error	lib/morse_controller_helpers/flash_helpers.rb	/^    def flash_404_error$/;"	f	class:MorseControllerHelpers.FlashHelpers
+flash_create_no	lib/morse_controller_helpers/flash_helpers.rb	/^    def flash_create_no$/;"	f	class:MorseControllerHelpers.FlashHelpers
+flash_create_yes	lib/morse_controller_helpers/flash_helpers.rb	/^    def flash_create_yes$/;"	f	class:MorseControllerHelpers.FlashHelpers
+flash_destroy_no	lib/morse_controller_helpers/flash_helpers.rb	/^    def flash_destroy_no$/;"	f	class:MorseControllerHelpers.FlashHelpers
+flash_destroy_yes	lib/morse_controller_helpers/flash_helpers.rb	/^    def flash_destroy_yes$/;"	f	class:MorseControllerHelpers.FlashHelpers
+flash_update_no	lib/morse_controller_helpers/flash_helpers.rb	/^    def flash_update_no$/;"	f	class:MorseControllerHelpers.FlashHelpers
+flash_update_yes	lib/morse_controller_helpers/flash_helpers.rb	/^    def flash_update_yes$/;"	f	class:MorseControllerHelpers.FlashHelpers
+index	lib/morse_controller_helpers/crud_helpers.rb	/^    def index; end$/;"	f	class:MorseControllerHelpers.CrudHelpers
+klass	lib/morse_controller_helpers.rb	/^  def klass(str = klass_camel)$/;"	f	class:MorseControllerHelpers
+klass_camel	lib/morse_controller_helpers.rb	/^  def klass_camel$/;"	f	class:MorseControllerHelpers
+klass_humanized	lib/morse_controller_helpers.rb	/^  def klass_humanized$/;"	f	class:MorseControllerHelpers
+klass_id	lib/morse_controller_helpers.rb	/^  def klass_id$/;"	f	class:MorseControllerHelpers
+klass_pluralized	lib/morse_controller_helpers.rb	/^  def klass_pluralized$/;"	f	class:MorseControllerHelpers
+klass_snake	lib/morse_controller_helpers.rb	/^  def klass_snake(str = klass_camel)$/;"	f	class:MorseControllerHelpers
+new	lib/morse_controller_helpers/crud_helpers.rb	/^    def new$/;"	f	class:MorseControllerHelpers.CrudHelpers
+params_resource	lib/morse_controller_helpers.rb	/^  def params_resource$/;"	f	class:MorseControllerHelpers
+params_resource_ids	lib/morse_controller_helpers.rb	/^  def params_resource_ids$/;"	f	class:MorseControllerHelpers
+params_resources	lib/morse_controller_helpers.rb	/^  def params_resources$/;"	f	class:MorseControllerHelpers
+path_edit	lib/morse_controller_helpers.rb	/^  def path_edit(cp = current_instance)$/;"	f	class:MorseControllerHelpers
+path_index	lib/morse_controller_helpers.rb	/^  def path_index$/;"	f	class:MorseControllerHelpers
+path_new	lib/morse_controller_helpers.rb	/^  def path_new$/;"	f	class:MorseControllerHelpers
+path_show	lib/morse_controller_helpers.rb	/^  def path_show(instance = current_instance)$/;"	f	class:MorseControllerHelpers
+render_404	lib/morse_controller_helpers.rb	/^  def render_404$/;"	f	class:MorseControllerHelpers.resource_symbols
+resource_symbol	lib/morse_controller_helpers.rb	/^  def resource_symbol$/;"	f	class:MorseControllerHelpers
+resource_symbols	lib/morse_controller_helpers.rb	/^  def resource_symbols$/;"	f	class:MorseControllerHelpers
+set_current_instance	lib/morse_controller_helpers.rb	/^  def set_current_instance(k)$/;"	f	class:MorseControllerHelpers.resource_symbols
+show	lib/morse_controller_helpers/crud_helpers.rb	/^    def show; end$/;"	f	class:MorseControllerHelpers.CrudHelpers
+update	lib/morse_controller_helpers/crud_helpers.rb	/^    def update$/;"	f	class:MorseControllerHelpers.CrudHelpers
