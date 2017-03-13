@@ -5,8 +5,6 @@ require 'morse_controller_helpers/crud_helpers'
 require 'morse_controller_helpers/flash_helpers'
 
 module MorseControllerHelpers
-  expose(:current_instance) { @current_instance }
-  expose(:current_instances) { @current_instances }
   extend ActiveSupport::Concern
   include MorseControllerHelpers::CrudHelpers
   include MorseControllerHelpers::FlashHelpers
