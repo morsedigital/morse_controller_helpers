@@ -15,7 +15,7 @@ module MorseControllerHelpers
                   :path_index,
                   :path_new,
                   :path_show
-    before_filter :dynamic_current_instance
+    before_action :dynamic_current_instance
   end
 
   def assign_current_instance_from_params(pri)
