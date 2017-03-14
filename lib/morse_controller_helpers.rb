@@ -79,7 +79,7 @@ module MorseControllerHelpers
   end
 
   def path_edit(cp = current_instance)
-    [path_prefix, path_show(cp).unshift(:edit)].compact
+    [:edit, path_prefix, cp].compact
   end
 
   def path_index
@@ -87,11 +87,16 @@ module MorseControllerHelpers
   end
 
   def path_new
-    [path_prefix, :new, resource_symbol].compact
+    [:new, path_prefix, resource_symbol].compact
   end
 
   def path_prefix
     nil
+  end
+
+  def path_prefix_symbol
+    return nil unless path_prefix
+    path_prefix.to_sym
   end
 
   def path_show(instance = current_instance)
