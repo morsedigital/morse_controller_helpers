@@ -6,8 +6,8 @@ require 'morse_controller_helpers/version'
 Gem::Specification.new do |spec|
   spec.name          = "morse_controller_helpers"
   spec.version       = MorseControllerHelpers::VERSION
-  spec.authors       = ["Terry S"]
-  spec.email         = ["itsterry@gmail.com"]
+  spec.authors       = ["Terry S",'Mark Mekhaeil']
+  spec.email         = ["itsterry@gmail.com",'mark@morsedigital.com']
 
   spec.summary       = %q{Morse Controller Helpers}
   spec.description   = %q{Morse Controller Helpers}
