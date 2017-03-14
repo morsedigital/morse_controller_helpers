@@ -34,7 +34,7 @@ module MorseControllerHelpers
     def update
       if current_instance.update_attributes(params_resource)
         flash_update_yes
-        redirect_to path_edit
+        redirect_to path_edit(current_instance)
       else
         flash_update_no
         render("#{resource_symbols}/edit")
