@@ -1,3 +1,3 @@
 module MorseControllerHelpers
-  VERSION = '0.1.10'.freeze
+  VERSION = '0.1.11'.freeze
 end
