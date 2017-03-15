@@ -29,6 +29,10 @@ module MorseControllerHelpers
     @current_instance = set_current_instance(klass_us)
   end
 
+  def current_instances
+    controller_name.singularize.capitalize.constantize.all
+  end
+
   def dynamic_current_instance
     params_resource_ids.each do |pri|
       begin
