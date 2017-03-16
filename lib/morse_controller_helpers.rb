@@ -30,7 +30,7 @@ module MorseControllerHelpers
   end
 
   def current_instances
-    controller_name.singularize.capitalize.constantize.all
+    @current_instances = klass.all
   end
 
   def dynamic_current_instance
