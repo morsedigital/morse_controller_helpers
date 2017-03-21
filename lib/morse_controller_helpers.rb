@@ -19,6 +19,7 @@ module MorseControllerHelpers
   end
 
   def assign_current_instance_from_params(pri)
+    return if dynamic_current_instance_exceptions.include? pri
     klass_us = pri.gsub('_id', '')
     klass = klass_us.classify.constantize
     if klass.respond_to?(:friendly)
